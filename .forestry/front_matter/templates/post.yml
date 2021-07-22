@@ -5,9 +5,12 @@ fields:
 - type: list
   name: categories
   label: categories
+  description: use "plants" category in order for it to show up under the news/plants
+    section and the home page.
 - type: datetime
   name: date
   label: date
+  default: now
 - type: text
   name: description
   label: description
@@ -23,3 +26,4 @@ fields:
 - type: text
   name: type
   label: type
+  default: post
